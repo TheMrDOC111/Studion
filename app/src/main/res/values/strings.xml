@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Studion</string>
+    <string name="login_hint">Введите почту…</string>
+    <string name="password_hint">Введите пароль…</string>
+    <string name="login_button">Войти</string>
+    <string name="registration_button">Зарегистрироваться</string>
+    <string name="login_error_msg">Неправильный логин или пароль</string>
+    <string name="login_label">Авторизация</string>
+    <string name="registration_label">Регистрация</string>
+    <string name="second_name_hint">Введите фамилию…</string>
+    <string name="first_name_hint">Введите имя…</string>
+    <string name="middle_name_hint">Введите отчество…</string>
+    <string name="rewrite_password_hint">Повторите пароль…</string>
+    <string name="logout">Выход</string>
+    <string name="check_email">Проверьте почту</string>
+    <string name="user_user_is_already_registered">Пользователь уже существует</string>
+    <string name="enter_valid_email">Ошибка ввода почты</string>
+    <string name="unknown_error">Неизвестная ошибка</string>
+    <string name="incorrect_fields">Поля заполнены неверно</string>
+    <string name="menu_courses">Курсы</string>
+    <string name="menu_schedule">Расписание</string>
+    <string name="menu_chats">Чаты</string>
+    <string name="menu_profile">Профиль</string>
+    <string name="teacher">Преподователь</string>
+    <string name="connection_error">Ошибка подключения</string>
+    <string name="courses">Курсы</string>
+    <string name="groups">Группы</string>
+    <string name="people">Люди</string>
+</resources>
