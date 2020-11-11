@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Studion</string>
-    <string name="login_hint">Введите почту…</string>
+    <string name="authorization_hint">Введите почту…</string>
     <string name="password_hint">Введите пароль…</string>
-    <string name="login_button">Войти</string>
+    <string name="authorization_button">Войти</string>
     <string name="registration_button">Зарегистрироваться</string>
-    <string name="login_error_msg">Неправильный логин или пароль</string>
-    <string name="login_label">Авторизация</string>
+    <string name="authorization_error_msg">Неправильный логин или пароль</string>
+    <string name="authorization_label">Авторизация</string>
     <string name="registration_label">Регистрация</string>
     <string name="second_name_hint">Введите фамилию…</string>
     <string name="first_name_hint">Введите имя…</string>
@@ -17,6 +17,7 @@
     <string name="enter_valid_email">Ошибка ввода почты</string>
     <string name="unknown_error">Неизвестная ошибка</string>
     <string name="incorrect_fields">Поля заполнены неверно</string>
+
     <string name="menu_courses">Курсы</string>
     <string name="menu_schedule">Расписание</string>
     <string name="menu_chats">Чаты</string>
@@ -26,4 +27,5 @@
     <string name="courses">Курсы</string>
     <string name="groups">Группы</string>
     <string name="people">Люди</string>
+    <string name="enter_in_studion">Вход в Studion</string>
 </resources>

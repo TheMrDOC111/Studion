@@ -4,6 +4,7 @@ import android.app.AppComponentFactory
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.studion.android.R
 import com.studion.android.databinding.FragmentAuthorizationBinding
@@ -13,6 +14,9 @@ import dagger.hilt.android.AndroidEntryPoint
 class AuthorizationFragment : Fragment(R.layout.fragment_authorization) {
     private var _binding: FragmentAuthorizationBinding? = null
     private val binding get() = _binding!!
+
+    private val viewModel by viewModels<AuthorizationViewModel>()
+
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
